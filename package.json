@@ -12,7 +12,7 @@
     "lint:fix": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "down-docker": "docker compose --file infra/compose.yaml down",
+    "down-docker": "docker compose --file ./infra/compose.yaml down",
     "all": "docker compose --file infra/compose.yaml up -d & bash -c jest --watchAll  & bash -c next dev"
   },
   "author": "",
